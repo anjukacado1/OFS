@@ -1,0 +1,36 @@
+<html>
+    <head>
+    <h1>HTML FORM</h1>
+</head>
+    <body>
+        <form>
+
+        <label for="First Name">First Name</label><br>
+		<input type="text" name="First Name" id="First Name" value="Anjuka"><br>
+		<labEl for="Last Name">Last Name</labEl><br>
+		<input type="text" name="Last Name" id="Last Name" value="AK"><br>
+        <label for="Phonenum">Phonenum</label><br>
+        <input type="tel" name="Phonenum" id="Phonenum" value="9786376934"><br>
+        </form>
+
+        <table border="3px">
+            <tr>
+                <td id="FirstNamedisplay"></td>
+            </tr>
+            <tr>
+                <td id="lastNamedisplay"></td>
+            </tr>
+            <tr>
+                <td id="Phonenum"></td>
+            </tr>
+            
+
+        </table>
+        <script>
+            document.getElementById("FirstNamedisplay").innerHtml=document.getElementById("First Name").value;
+            document.getElementById("lastNamedisplay").innerHtml=document.getElementById("last Name").value;
+            document.getElementById("Phonenumdisplay").innerHtml=document.getElementById("Phonenum").value;
+        </script>
+
+    </body>
+</html>
