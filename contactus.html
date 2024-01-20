@@ -1,35 +1,110 @@
-<!DOCTYPE html>
-<html>
+!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>CONTACT US</title>
-	<link rel="stylesheet" type="text/css" href="styless.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="reg.css">
 </head>
 <body>
-	<div class="h4heading">
-	<h4><center>CONTACT US</center></h4>
-</div><center>
-	<form><fieldset>
-		<legend>CONTACT US:</legend>
-		<label for="First Name">First Name</label><br>
-		<input type="text"name="First Name" id="First Name"><br>
-		<labrl for="Last Name">Last Name</labrl><br>
-		<input type="text" name="Last Name" id="Last Name">
-		<br>
+    <h1>Student Registeration Form</h1>
+    <table border="1 px">
+    <tr>
+        <td>Name</td>
+        <td ><input type="text" id="tbname"></td>
+        
+    </tr><br>
+    <tr>
+        <td>DOB</td>
+        <td ><input type="date" id="tbdob"></td>
+    </tr><br>
+    <!--<tr>
+        <td>Gender</td>
+        <td><input type="radio" value="male"><input type="radio" value="female"></td>
+    </tr>-->
+    <tr>
+        <td>UserName</td>
+        <td ><input type="text" id="tbusername"></td>
+    </tr><br>
+    <tr>
+        <td>Email</td>
+        <td ><input type="email" id="tbemail"></td>
+    </tr><br>
+    <tr>
+        <td>Password</td>
+        <td ><input type="password" id="tbpassword"></td>
+    </tr><br>
+    <tr>
+        <td>Phone No</td>
+        <td ><input type="number" id="tbphoneno"></td>
+    </tr><br>
+    <tr>
+        <td>Address</td>
+        <td ><input type="text" id="tbaddress"></td>
+    </tr><br>
+    </table>
+    <input type="submit" onclick="clicksave()">
+    <br><br>
+    
 
-		<label for="email">Email</label><br>
-		<input type="email" name="email" id="email">
-<br>
 
-<label for="Mobile Number">Mobile Number(+91-xxx xxx xxxx)</label>
-<br>
-<input type="tel" name="Mobile Number" id="Mobile Number" value="">
-<br>
-<label for="Message">Message</label><br>
-<textarea></textarea><br>
-	</fieldset>
-	</form></center>
+    <script>
 
-</body>
+function clicksave(){
+        var Name=document.getElementById('tbname').value
+        document.getElementById('name').innerHTML=Name
+
+        var DOB=document.getElementById('tbdob').value
+        DOB=document.getElementById('dob').innerHTML=DOB
+
+        UserName=document.getElementById('tbusername').value
+        document.getElementById('username').innerHTML=UserName
+
+        Password=document.getElementById('tbpassword').value
+        document.getElementById('password').innerHTML=Password
+
+        Email=document.getElementById('tbemail').value 
+        document.getElementById('email').innerHTML=Email
+
+        PhoneNo=document.getElementById('tbphoneno').value 
+        document.getElementById('phoneno').innerHTML=PhoneNo
+
+        Address=document.getElementById('tbaddress').value
+        document.getElementById('address').innerHTML=Address
+    }
+    
+
+
+    </script><br>
+
+    <table border="1 px">
+        <tr>
+        <td>Name</td>
+        <td>DOB</td>
+        <td>UserName</td>
+        <td>Email</td>
+        <td>Password</td>
+        <td>Phone No</td>
+        <td>Address</td>
+        </tr>
+
+        <tr>
+            <td id="name"></td>
+            <td id="dob"></td>
+            <td id="username"></td>
+            <td id="email"></td>
+            <td id="password"></td>
+            <td id="phoneno"></td>
+            <td id="address"></td>
+        </tr>
+
+    </table>
+
+
+
+
+
+
+
 </html>
+

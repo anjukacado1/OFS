@@ -1,0 +1,140 @@
+img{
+	width:70px;
+	height:70px;
+
+}
+.HomeHeading{
+	display:flex;
+	gap:20px;
+	justify-content:center;
+	place-items:center;
+	
+	font-style: italic;
+
+}
+
+h1 a{
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	font-style:italic;
+}
+
+.HomeHeadingDescrp{
+	text-align:center;
+	font-family:arial;
+}
+
+ul{
+	
+	list-style-type:none ;
+	gap: 10px;
+	margin: 0;
+	padding:20px 20px;
+	background-image: black;
+}
+
+li{
+	float:left;
+	border-right:1px solid white;
+
+}
+
+li a{
+	display: block;
+	padding: 20px 20px;	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+
+li a:hover{
+	color:ghostwhite;
+	background-color: black;
+	font-style: italic;
+	font size: 10px;
+	padding: 10px 10px;
+}
+
+.login{
+	float: right;
+
+
+}
+body{
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG7-kgMFsE8lbhBeTiepaNq2lXgwCkux8DvA&usqp=CAU");
+
+}
+
+
+/*-------------------------------aboutus styles----------------------------------------------*/
+
+
+.farmkart img{
+    width: 10px;
+    height: 10px;
+}
+
+
+.farmkart{
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+}
+
+h3{
+    font-family: Impact;
+    font-size: 30px;
+
+}
+
+.mission{
+    display: flex;
+    justify-content: right;
+    text-align: center;
+
+}
+h5{
+    font-style: impact;
+    font-size: 150px;
+    align-items: center;
+}
+
+
+/*-----------------------------home------------------------------------------------------------*/
+
+
+img{
+    width: 20px;
+    height: 20px;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+}
+
+
+/*-------------------------------style2------------------------------------------------------*/
+
+img{
+    width: 20px;
+    height: 20px;
+}
+
+h1{
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    
+
+}
+
+.logo{
+    display: flex;
+    justify-content: left;
+    place-items: left;
+    gap: 10px;
+}
