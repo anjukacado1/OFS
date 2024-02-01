@@ -4,8 +4,12 @@
 	
 <title>ONLINE FORMER'S STORE</title>
 <link rel="icon" type="image/x-icon" href="https://i.postimg.cc/Gt0vqtSH/OFSLOGO.jpg">
-<link rel="stylesheet" type="text/css" href="css/styless.css">
+<link rel="stylesheet" type="text/css" href="styless.css">
 
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 
 </head>
 
@@ -29,11 +33,84 @@
 		<li><a href="contactus.html">CONTACT US</a></li>
 
 		<li><a href="login.html">LOGIN</a></li>
-	</div>
+		</div>
 	</ul>
-	<script src = "js/script.js">
+	<div class="imagecontainer">
+<!-- Slider main container -->
+<div class="swiper">
+	<!-- Additional required wrapper -->
+	<div class="swiper-wrapper">
+	  <!-- Slides -->
+	  <div class="swiper-slide">	<img src="https://picsum.photos/id/108/1800/267" alt=""></div>
+	  <div class="swiper-slide"> <img src="https://picsum.photos/id/110/1800/267" alt=""></div>
+	  <div class="swiper-slide"><img src="https://picsum.photos/id/121/1800/267" alt=""></div>
 
-	</script>
+	  <div class="swiper-slide">	<img src="https://i.postimg.cc/3xt5KPqH/slide-4.jpg" alt=""></div>                                                                   
+	  <div class="swiper-slide">	<img src="https://i.postimg.cc/MTvW2WZ4/slide-3.jpg" alt=""></div>                                                             
+	              
+	  <div class="swiper-slide">	<img src="https://i.postimg.cc/13Drxj9c/slide-8.jpg" alt=""></div>                                                                                                                                          
+	  ...
+	</div>
+	<!-- If we need pagination -->
+	<div class="swiper-pagination"></div>
+  
+	<!-- If we need navigation buttons -->
+	<div class="swiper-button-prev"></div>
+	<div class="swiper-button-next"></div>
+  
+	<!-- If we need scrollbar -->
+	<div class="swiper-scrollbar"></div>
+  </div>
+
+</div>
+</div>
+
+
+
+
+
+	<script src = "js/script.js"></script>
+
+	
+
+	
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+	<script>
+		const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  autoplay:{
+	delay:1000,
+},slicePerVeiw:3,
+
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+	clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+</script>
+
+
+
 </body>
 
 </html>
