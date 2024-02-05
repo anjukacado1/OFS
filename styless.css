@@ -25,6 +25,7 @@ a{
 	font-style:italic;
 	background-color: beige;
 	text-decoration-color: #2d2d2d;
+	
 }
 
 ul{
@@ -80,9 +81,10 @@ body{
 }
 
 .swiper .swiper-button-prev, .swiper .swiper-button-next{
-	color: #03fc39;
+	color: #f4f5f4;
 	opacity: 0.1px;
 }
+
 
 .swiper {
   width: 1000px;
@@ -104,8 +106,7 @@ body{
 		border-radius: 0.5rem;
 
 	}
-
-
+	
 /*---------------------------------------------------------------------------------------------*/
 /*-----------------------------------aboutus styles----------------------------------------------*/
 
@@ -144,18 +145,10 @@ h5{
 
 /*------------------------------- login page------------------------------------------------------*/
 
+.register{
+	background-image: url();
 
-
-.register {
-		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-		transition: 0.3s;
-		width: 40%;
-		font-family: Calibri;
-		font-size: 20px;
-		background-color:light pink;
-
-		float:right
-	  }
+}
 	  
 	.register:hover {
 		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -164,3 +157,27 @@ h5{
 		padding: 2px 16px;
 	  }
 
+
+	  
+		.topcorner{
+			float: right;
+			width: 100px;
+
+		}
+
+
+	  .dropdown {
+		height:30px;
+		overflow-y: scroll;
+		float: right;
+		}
+
+
+	  @media screen and {
+		max-width:500px;
+		li a{
+			font-size: 10px;
+		}
+
+		
+	  }
