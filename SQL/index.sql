@@ -1,7 +1,7 @@
-CREATE  DATABASE CAD_OFS;
-USE cad_ofs;
+CREATE  DATABASE Anjuka;
+USE Anjuka;
 show tables;
-create table ofs_usr_tbl(user_id int not null primary key auto_increment,
+create table Anjuka_usr_tbl(user_id int not null primary key auto_increment,
 First_name varchar(255) not null,
 Last_name varchar(255) not null,
 User_name varchar(255) not null unique,
